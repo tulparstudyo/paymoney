@@ -1,0 +1,20 @@
+{
+    "name": "tulparstudyo/paymoney",
+    "description": "Laravel için Paymoney ödeme entegrasyon paketi",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "TulparStudyo\\Paymoney\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TulparStudyo\\Paymoney\\PaymoneyServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
